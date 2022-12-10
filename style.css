@@ -1,0 +1,74 @@
+*{
+    width: 100%;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+@media only screen and (max-width: 600px){
+body {
+    background-image: url('/images/bg0.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 350px;
+}
+
+#logo-img{
+    text-align: center;
+}
+#logo{
+    width: 20%;
+    height: 20%;
+    margin: auto;
+    display: inline;
+    background: skyblue;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+h3{
+    font-size: 20px;
+    width: 200px;
+    text-align: center;
+    background: skyblue;
+    color: white;
+    margin-bottom: 50px;
+}
+
+#details{
+    border: 1px solid lightskyblue;
+    width: 300px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#detail-box{
+    width: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+input{
+    display: block;
+    margin-top: 10px;
+}
+label{
+    display: inline;
+}
+input[type=date]{
+    width: 90px;
+    display: inline;
+}
+
+button{
+    margin-top: 10px;
+}
+
+input:hover + #details{
+    background-color: red;
+}
+
+#data{
+    text-align: center;
+}
+
+}

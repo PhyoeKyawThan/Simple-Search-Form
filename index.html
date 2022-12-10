@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Search your Certificate</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <div id="container">
+      <div id="logo-img">
+      <img src="/images/logo.png" alt="Logo" id="logo"/>
+      </div>
+      <h3 id="topic" class="logo">
+          Search your Certificate Within a minute
+      </h3>
+      <div id="details">
+      <div id="detail-box">
+          <input type="text" placeholder="Enter your name.." name="name" id="name">
+          <input type="number" placeholder="Enter your age.." name="age" id="age">
+          <label for="birth-date">Birthday-Date</label>
+          <input type="date" name="birth-date" id="birth-date">
+          <button type="search" onclick="dataSearch()">Search</button>
+      </div>
+      </div>
+      <div id="data"></div>
+      
+  </div>
+  
+  
+  <script src="main.js"></script>
+</body>
+</html>
